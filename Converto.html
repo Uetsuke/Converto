@@ -1,0 +1,73 @@
+<!doctype html>
+<HTML>
+	<HEAD>
+	
+	<meta charset=utf8>
+	
+	<TITLE> Converto </title>
+	
+	<STYLE> body {background-color: #fafffa;} </style>
+	
+	</head>
+	
+	<BODY>
+	
+	<H1> Welcome to <FONT color="red"> Converto </font color>! </h1>
+	<P> <FONT color="red"> Converto </font color> is a web based kitchen
+	<B> Metric\Imperial </b> and <B> volume/weight </b> converter. </p>
+	<br>
+	
+	<FORM>
+		<H2> Choose the Ingredient. </h2>
+
+		<input type="radio" id="flour" name="ingredient" value="flour">
+		<LABEL for="flour"> Flour </label>
+		<input type="radio" id="water" name="ingredient" value="water">
+		<LABEL for="water"> Water </label>
+		<input type="radio" id="oil" name="ingredient" value="flour">
+		<LABEL for="oil"> Oil </label>
+		<input type="radio" id="butter" name="ingredient" value="water">
+		<LABEL for="butter"> Butter </label>
+
+		<H2> Input </h2>
+
+		<P> Choose one. </p>
+
+		<input type="radio" id="inputweight" name="inputformat" value="inputweight">
+		<LABEL for="inputweight"> Weight </label>
+		<input type="radio" id="inputvolume" name="inputformat" value="inputvolume">
+		<LABEL for="inputvolume"> Volume </label>
+
+		<P> <FONT color="#00003c"> Metric </font color> or
+		<FONT color="#3c0000"> Imperial</font color>? </p>
+
+		<input type="radio" id="inputmetric" name="inputunitstyle" value="inputmetric">
+		<LABEL for="inputmetric"> Metric </label>
+		<input type="radio" id="inputimperial" name="inputunitstyle" value="inputimperial">
+		<LABEL for="inputimperial"> Imperial </label>
+
+		<H2> Output </h2>
+
+		<P> Same as before. ex: pounds vs cups </p>
+		
+		<input type="radio" id="outputweight" name="outputformat" value="outputweight">
+		<LABEL for="outputweight"> Weight </label>
+		<input type="radio" id="outputvolume" name="outputformat" value="outputvolume">
+		<LABEL for="outputvolume"> Volume </label>
+
+		<P> Please choose. <FONT color="#00003c"> Europe </font color> or <FONT color="#3c0000">
+		America </font color> </p>
+
+		<input type="radio" id="outputmetric" name="outputunitstyle" value="outputmetric">
+		<LABEL for="outputmetric"> Metric </label>
+		<input type="radio" id="outputimperial" name="outputunitstyle" value="outputimperial">
+		<LABEL for="outputimperial"> Imperial </label>
+		<br>
+
+		<P> Click for magic </p>
+
+		<input type="submit" value="Prepare">
+
+	</form>
+	</body>
+</html>
