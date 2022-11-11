@@ -1,6 +1,5 @@
 Converto is a HTML and JAVASCRIPT online kitchen converter.
 
-I write this for free, I hope that as many people
-as possible can use this. 
+Converto is also free to use.
+I wish that many people use this and find it usefull.
 
-Publicly hosted on Github.
