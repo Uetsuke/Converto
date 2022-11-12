@@ -6,7 +6,9 @@
 	
 	<TITLE> Converto </title>
 	
-	<STYLE> body {background-color: #fafffa;} </style>
+	<STYLE>
+	body {background-color: #fafffa;}
+	</style>
 	
 	</head>
 	
@@ -17,7 +19,7 @@
 	<B> Metric\Imperial </b> and <B> volume/weight </b> converter. </p>
 	<br>
 	
-	<FORM>
+	<FORM id="forminfo">
 
 		<H2> <FONT color="green"> Choose</font> the Ingredient. </h2>
 		<input type="radio" id="flour" name="ingredient" value="flour">
@@ -36,7 +38,8 @@
 
 		<P> Enter the amount here. </p>
 
-		<input type="number" step="0.1" min="0">
+		<input type="number" id=amountnum step="0.1" name="amountnum" min="0">
+
 		<SELECT name="inputmeasuretype" id="inputmeasuretype">
 			<OPTION value="mL"> mL </option>
 			<OPTION value="C"> C </option>
@@ -47,7 +50,7 @@
 
 		<P> Enter fractions here. <FONT size="2">(If needed) </font> </p>
 
-		<input type="number" min="0">
+		<input type="number" name=fractionnum min="0">
 		<br>
 
 		<input type="radio" id="halfs" name="fractions" value="halfs">
@@ -56,8 +59,8 @@
 			<LABEL for="thirds"> ⅓ </label>
 		<input type="radio" id="fourths" name="fractions" value="fourths">
 			<LABEL for="fourths>" ¼ </label>
-		<input type="radio" id="n/a" name="fractions" value="n/a" checked="checked">
-			<LABEL for="n/a"> n/a </label>
+		<input type="radio" id="na" name="fractions" value="na" checked="checked">
+			<LABEL for="na"> n/a </label>
 
 		<H2> What do you want to <FONT color=red> Convert </font> this to? </h2>
 
@@ -72,8 +75,18 @@
 
 		<P> Click 🡳 for <FONT color="#5e296e"> Kitchen Magic! </font> </p>
 		
-		<input type="submit" value="Convert!">
+		<BUTTON id="formsubmit"> Woooooo! </button>
 
 	</form>
+
+	<H4> The values are made up and the points don't matter! (for now) </h4>
+	<br>
+
+
+	<SCRIPT>
+
+	</script>
+
 	</body>
+
 </html>
