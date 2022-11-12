@@ -2,7 +2,7 @@
 <HTML>
 	<HEAD>
 	
-	<meta charset=utf8>
+	<meta charset="utf8">
 	
 	<TITLE> Converto </title>
 	
@@ -12,67 +12,67 @@
 	
 	<BODY>
 	
-	<H1> Welcome to <FONT color=red> Converto </font color>! </h1>
-	<P> <FONT color=red> Converto </font color> is a web based kitchen
+	<H1> Welcome to <FONT color="red"> Converto </font>! </h1>
+	<P> <FONT color="red"> Converto </font color> is a web based kitchen
 	<B> Metric\Imperial </b> and <B> volume/weight </b> converter. </p>
 	<br>
 	
 	<FORM>
-		<H2> <FONT color=green> Choose</font> the Ingredient. </h2>
 
-		<input type=radio id=flour name=ingredient value=flour>
-		<LABEL for=flour> Flour </label>
-		<input type=radio id=sugar name=ingredient value=sugar>
-		<LABEL for=sugar> Sugar </label>
-		<input type=radio id=milk name=ingredient value=milk>
-		<LABEL for=milk> Milk </label>
-		<input type=radio id=oil name=ingredient value=flour>
-		<LABEL for=oil> Oil </label>
-		<input type=radio id=butter name=ingredient value=water>
-		<LABEL for=butter> Butter </label>
-		<input type=radio id=eggs name=ingredient value=eggs>
-		<LABEL for=butter> Eggs </label>
-		<br>
+		<H2> <FONT color="green"> Choose</font> the Ingredient. </h2>
+		<input type="radio" id="flour" name="ingredient" value="flour">
+			<LABEL for="flour"> Flour </label>
+		<input type="radio" id="sugar" name="ingredient" value="sugar">
+			<LABEL for="sugar"> Sugar </label>
+		<input type="radio" id="milk" name="ingredient" value="milk">
+			<LABEL for="milk"> Milk </label>
+		<input type="radio" id="oil" name="ingredient" value="oil">
+			<LABEL for="oil"> Oil </label>
+		<input type="radio" id="butter" name="ingredient" value="butter">
+			<LABEL for="butter"> Butter </label>
+		<input type="radio" id="eggs" name="ingredient" value="eggs">
+			<LABEL for="eggs"> Eggs </label>
+	<br>
 
 		<P> Enter the amount here. </p>
 
-		<input type=number step=0.1 min=0>
-		<SELECT name=inputmeasuretype id=inputmeasuretype>
-			<OPTION value=mL> mL </option>
-			<OPTION value=C> C </option>
-			<OPTION value=g> g </option>
-			<OPTION value=Lb> Lb </option>
+		<input type="number" step="0.1" min="0">
+		<SELECT name="inputmeasuretype" id="inputmeasuretype">
+			<OPTION value="mL"> mL </option>
+			<OPTION value="C"> C </option>
+			<OPTION value="g"> g </option>
+			<OPTION value="Lb"> Lb </option>
 		</select>
-		<LABEL for=inputmeasuretype> Milliters, cups, grams or pounds. </label>
+		<LABEL for="inputmeasuretype"> Milliters, cups, grams or pounds. </label>
 
-		<P> Enter fractions here. <FONT size=2>(If needed) </font> </p>
+		<P> Enter fractions here. <FONT size="2">(If needed) </font> </p>
 
-		<input type=number min=0>
+		<input type="number" min="0">
 		<br>
 
-		<input type=radio id=halfs name=fractions value=halfs>
-		<LABEL for=halfs> ½ </label>
-		<input type=radio id=thirds name=fractions value=thirds>
-		<LABEL for=thirds> ⅓ </label>
-		<input type=radio id=fourths name=fractions value=fourths>
-		<LABEL for=fourths> ¼ </label>
-		<input type=radio id=n/a name=fractions value=n/a checked=checked>
-		<LABEL for=n/a> n/a </label>
+		<input type="radio" id="halfs" name="fractions" value="halfs">
+			<LABEL for="halfs"> ½ </label>
+		<input type="radio" id="thirds" name="fractions" value="thirds">
+			<LABEL for="thirds"> ⅓ </label>
+		<input type="radio" id="fourths" name="fractions" value="fourths">
+			<LABEL for="fourths>" ¼ </label>
+		<input type="radio" id="n/a" name="fractions" value="n/a" checked="checked">
+			<LABEL for="n/a"> n/a </label>
 
 		<H2> What do you want to <FONT color=red> Convert </font> this to? </h2>
 
-		<input type=radio id=mL name=outputmeasuretype value=mL>
-		<LABEL for=mL> Milliters </label>
-		<input type=radio id=C name=outputmeasuretype value=C>
-		<LABEL for=C> Cups </label>
-		<input type=radio id=g name=outputmeasuretype value=g>
-		<LABEL for=g> Grams </label>
-		<input type=radio id=Lb name=outputmeasuretype value=Lb>
-		<LABEL for=Lb> Pounds </label>
+		<input type="radio" id="mL" name="outputmeasuretype" value="mL">
+			<LABEL for="mL"> Milliters </label>
+		<input type="radio" id="C" name="outputmeasuretype" value="C">
+			<LABEL for="C"> Cups </label>
+		<input type="radio" id="g" name="outputmeasuretype" value="g">
+			<LABEL for="g"> Grams </label>
+		<input type="radio" id="Lb" name="outputmeasuretype" value="Lb">
+			<LABEL for="Lb"> Pounds </label>
 
-		<P> Click 🡳 for <FONT color=#5e296e> Kitchen Magic! </font> </p>
+		<P> Click 🡳 for <FONT color="#5e296e"> Kitchen Magic! </font> </p>
 		
-		<input type=submit value=Convert!>
+		<input type="submit" value="Convert!">
 
 	</form>
 	</body>
