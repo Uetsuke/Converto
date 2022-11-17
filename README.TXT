@@ -13,5 +13,5 @@ program work.
 Wish me luck! :D
 
 Converto is also free to use.
-I will release this under an artistic license once I figure out those legal things.
+I will release this under an artistic license.
 
