@@ -10,5 +10,6 @@ It is implemented as a simple form that returns the needed conversion.
 Wish me luck! :D
 
 Converto is also free to use.
-I will release this under an artistic license.
+
+This Code is released under an included artistic License.
 
