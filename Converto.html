@@ -87,24 +87,26 @@ body {background-color: #fafffa;}
 function magic() {
 
 //	Variables to store the data
-var inputIngredient;
-var inputAmount;
-var inputType;
-var inputFractions;
-var fractionType;
-var outputType;
-var displayValues;
+var inputIngredient = 0;
+var inputAmount = 0;
+var inputType = 0;
+var inputFractions = 0;
+var fractionType = 0;
+var outputType = 0;
+var displayValues = 0;
+
 
 inputIngredient = document.getElementsByName("ingredient");
 
-for(let i = 0; i <inputIngredient.length; i++) {
-	if(inputIngredient[i].checked)
-		sessionStorage.setItem("ingredient", inputIngredient[i].value);
-	}
-window.location.reload();
-}
+//for(let i = 0; i = inputIngredient; i++) {
+//	if(inputIngredient[i].checked)
+//		sessionStorage.setItem("ingredient", inputIngredient[i].value);
+//	}
+//window.location.reload();
+//}
+//
+//displayValues = sessionStorage.getItem("ingredient");
 
-displayValues = sessionStorage.getItem("ingredient");
 document.getElementById("resultParagraph").innerHTML = displayValues;
 
 </script>
