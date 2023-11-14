@@ -1,0 +1,5 @@
+This project turned out to be more work than originaly anticipated.  Doing this for free would be silly.  I will use php and write the program as a server service to host myself.  This project will be private.
+
+This Open Javascript version will stay public.  You are free to participate.
+
+Thank you for your interest
